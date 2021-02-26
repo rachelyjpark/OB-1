@@ -8,10 +8,10 @@ body {
 
 .background {
   background-color: #C5D2D0;
-  position: relative;
+  position: fixed;
   top: -640px;
   bottom: 0;
-  left: 85%;
+ right: 0;
   height: 250vh;
   width: 26%;
   border-left: 6px solid black;
@@ -28,7 +28,7 @@ body {
   color: white;
   font-family: helvetica;
   font-size: 18px;
-  padding-right: 22%;
+  padding-right: 30%;
 }
 
 .text-2 {
@@ -40,7 +40,7 @@ display: flex;
   color: white;
   font-family: helvetica;
   font-size: 18px;
-padding-right: 22%;
+ padding-right: 30%;
 }
 
 
@@ -53,7 +53,7 @@ padding-right: 22%;
   color: white;
   font-family: helvetica;
   font-size: 18px;
-  padding-right: 20%;
+ padding-right: 30%;
 }
 
 .text-4 {
@@ -66,7 +66,7 @@ padding-right: 22%;
   color: white;
   font-family: helvetica;
   font-size: 18px;
-  padding-right: 20%;
+ padding-right: 30%;
 }
 
 @keyframes fall {
