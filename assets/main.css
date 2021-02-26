@@ -12,7 +12,7 @@ body {
   top: -640px;
   bottom: 0;
  right: 0;
-  height: 250vh;
+  height: 150vh;
   width: 26%;
   border-left: 6px solid black;
   display: block;
@@ -156,7 +156,7 @@ font-style: normal;
 top: 0;
   bottom: 0;
 right: 0;
-  height: 300vh;
+  height: 150vh;
   width: 12%;
   border-left: 6px solid black;
   display: block;
