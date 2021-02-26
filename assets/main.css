@@ -17,7 +17,6 @@ background:#E1CBC9;
   text-decoration: none;
 }
 
-
 .text-1 {
   position: relative;
   top: 50px;
@@ -84,7 +83,7 @@ font-style: normal;
 @media only screen and (min-width: 800px) {
   
 body {
-  height: 250vh;
+  height: 150vh;
 
   background:#E1CBC9;
   margin: 10%;
@@ -155,9 +154,10 @@ font-style: normal;
 top: 0;
   bottom: 0;
 right: 0;
-  height: 150vh;
+  height: 250vh;
   width: 12%;
   border-left: 6px solid black;
   display: block;
   text-decoration: none;
+}
 }
