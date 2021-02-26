@@ -1,6 +1,6 @@
 
 body {
-  height: 200vh;
+  height: 100vh;
 
   background:#E1CBC9;
   margin: 10%;
@@ -9,7 +9,7 @@ body {
 .background {
   background-color: #C5D2D0;
   position: relative;
-top: -45.2%;
+  top: -640px;
   bottom: 0;
   left: 85%;
   height: 250vh;
