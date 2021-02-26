@@ -1,6 +1,6 @@
 
 body {
-  height: 200vh;
+  height: 100vh;
 background:#E1CBC9;
   margin: 10%;
 }
@@ -10,12 +10,13 @@ background:#E1CBC9;
   position: fixed;
   top: 0;
  right: 0;
-  height: 200vh;
+  height: 50vh;
   width: 26%;
   border-left: 6px solid black;
   display: block;
   text-decoration: none;
 }
+
 
 .text-1 {
   position: relative;
