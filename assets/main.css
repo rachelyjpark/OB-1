@@ -1,18 +1,16 @@
 
 body {
-  height: 100vh;
-
-  background:#E1CBC9;
+  height: 200vh;
+background:#E1CBC9;
   margin: 10%;
 }
 
 .background {
   background-color: #C5D2D0;
   position: fixed;
-  top: -640px;
-  bottom: 0;
+  top: 0;
  right: 0;
-  height: 150vh;
+  height: 200vh;
   width: 26%;
   border-left: 6px solid black;
   display: block;
