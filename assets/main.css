@@ -1,20 +1,8 @@
-
 body {
-  height: 100vh;
-background:#E1CBC9;
-  margin: 10%;
-}
+  height: 150vh;
 
-.background {
-  background-color: #C5D2D0;
-  position: fixed;
-  top: 0;
- right: 0;
-  height: 50vh;
-  width: 26%;
-  border-left: 6px solid black;
-  display: block;
-  text-decoration: none;
+  background:#E1CBC9;
+  margin: 10%;
 }
 
 .text-1 {
@@ -50,7 +38,7 @@ display: flex;
   text-align: center;
   color: white;
   font-family: helvetica;
-  font-size: 18px;
+  font-size: 20px;
  padding-right: 30%;
 }
 
@@ -63,14 +51,27 @@ display: flex;
   text-align: center;
   color: white;
   font-family: helvetica;
-  font-size: 18px;
+  font-size: 20px;
  padding-right: 30%;
+}
+ .background {
+  background-color: #C5D2D0;
+  position: fixed;
+top: 0;
+  bottom: 0;
+right: 0;
+  height: 250vh;
+  width: 15%;
+  border-left: 6px solid black;
+  display: block;
+  text-decoration: none;
+
 }
 
 @keyframes fall {
- 0%  { transform: translateX(-8.5rem) translateY(9.2rem); }
+ 0%  { transform: translateX(-9.5rem) translateY(9.2rem); }
     50% { transform:  translateY(20rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
-    100% { transform: translateX(-8.5rem) translateY(9.2rem); }
+    100% { transform: translateX(-9.5rem) translateY(9.2rem); }
   }
   #fall {
  font-size: 18px;
@@ -82,12 +83,6 @@ font-style: normal;
 
 @media only screen and (min-width: 800px) {
   
-body {
-  height: 150vh;
-
-  background:#E1CBC9;
-  margin: 10%;
-}
 .text-1 {
   position: relative;
   top: 50px;
@@ -134,30 +129,20 @@ display: flex;
   font-family: helvetica;
  font-size: 30px;
   padding-right: 15%;
+    padding-bottom: 20%;
 }
   @keyframes fall {
- 0%  { transform: translateX(-8rem) translateY(3.2rem); }
-    50% { transform:  translateY(15rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
-    100% { transform: translateX(-8rem) translateY(3.2rem); }
+ 0%  { transform: translateX(-10rem) translateY(8.8rem); }
+    50% { transform:  translateY(18rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
+    100% { transform: translateX(-10rem) translateY(8.8rem); }
   }
   #fall {
- font-size: 18px;
+ font-size: 30px;
     animation: fall 5s ease-in-out infinite;
   font-family: linotype-sabon,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
-  .background {
-  background-color: #C5D2D0;
-  position: fixed;
-top: 0;
-  bottom: 0;
-right: 0;
-  height: 250vh;
-  width: 12%;
-  border-left: 6px solid black;
-  display: block;
-  text-decoration: none;
-}
+
 }
