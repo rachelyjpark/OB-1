@@ -161,14 +161,14 @@ body {
   }
 
   @keyframes fall {
-    0% { transform: translateX(-10rem) translateY(8.8rem); }
+    0% { transform: translateX(-15rem) translateY(15.8rem); }
     50% { transform:  translateY(18rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
-    100% { transform: translateX(-10rem) translateY(8.8rem); }
+    100% { transform: translateX(-15rem) translateY(15.8rem); }
   }
 
 
   #fall {
-    font-size: 30px;
+    font-size: 40px;
     animation: fall 5s ease-in-out infinite;
     font-family: linotype-sabon,sans-serif;
     font-weight: 400;
